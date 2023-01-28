@@ -13,7 +13,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("phanee47/springtest")
+       app = docker.build("phanee47/springmysql")
     }
 
 
